@@ -1,12 +1,13 @@
 #!/usr/bin/python3
 '''interview question'''
 
+
 def pascal_triangle(n):
     '''returns pascal triangle'''
     list = []
     if n == 0:
         return list
-    list = [[] for i in range (n)]
+    list = [[] for i in range(n)]
     for i in range(n):
         for j in range(i+1):
             if (j < i):
