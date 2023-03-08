@@ -5,7 +5,7 @@ prints all characters of a Star Wars movie:
 const request = require('request');
 const baseURL = 'https://swapi-api.alx-tools.com/api/films/'.concat(process.argv[2]);
 
-request(baseURL async function (error, response, body) {
+request(baseURL, async function (error, response, body) {
   if (error) [
     console.log(error);
     return;
